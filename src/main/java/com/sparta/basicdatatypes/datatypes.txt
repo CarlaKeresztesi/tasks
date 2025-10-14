@@ -1,0 +1,9 @@
+Basic Data Types:
+
+a) A company's profit --> doubles - large number and precision;
+b) A person's weight --> doubles in kgs or int if no floating point;
+c) A book title --> string;
+d) Average rainfall in September --> double for scientist or int for viewers on the telly;
+e) Number of runs scored by a cricketer --> int;
+f) A telephone number, including area code --> string;
+g) A dress size --> string or int.
