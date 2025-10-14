@@ -37,6 +37,6 @@ public class PaintApp {
 //3. Number of cans not packed into boxes:
         int notPacked = cansReq - fullBoxes * cansPerBox;
         System.out.println("Number of cans not packed: " + notPacked);
-        
+
     }
 }
