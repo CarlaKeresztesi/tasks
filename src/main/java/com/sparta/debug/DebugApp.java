@@ -11,10 +11,10 @@ public class DebugApp {
         System.out.printf("I am a %s in %s%n", occupation, location);
 
         int age = 21;
-        System.out.println("I am " + age + " years of age, with a "+ activityLevel + " activity level");
+        System.out.println("I am " + age + " years of age with a "+ activityLevel + " activity level");
 
         // or formatted:
-        System.out.printf("I am %d years of age, with a %s activity level.%n", age, activityLevel);
-        
+        System.out.printf("I am %d years of age with a %s activity level.%n", age, activityLevel);
+
     }
 }
