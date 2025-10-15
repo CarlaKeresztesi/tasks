@@ -1,4 +1,4 @@
-package com.ck.calculator;
+package com.ck.tasks1.calculator;
 
 public class CalculatorApp {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class CalculatorApp {
            return;
        }
 
-       double a = Double.parseDouble(args[0]);// converted args from String to numbers
+       double a = Double.parseDouble(args[0]);// converted args from String to primitive numbers
        double b = Double.parseDouble(args[1]);
 
        if (Double.compare(b, 0) == 0) {

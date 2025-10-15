@@ -1,7 +1,8 @@
-package com.ck.sweettooth;
+package com.ck.tasks1.sweettooth;
 
 public class SweetToothApp {
     public static void main(String[] args) {
+
         int totalNumberOfSweets = 40;
         int students = 14;
 

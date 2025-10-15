@@ -1,4 +1,4 @@
-package com.ck.breakeven;
+package com.ck.tasks1.breakeven;
 
 public class BreakEvenApp {
     public static void main(String[] args) {

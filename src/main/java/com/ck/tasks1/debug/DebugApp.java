@@ -1,4 +1,4 @@
-package com.ck.debug;
+package com.ck.tasks1.debug;
 
 public class DebugApp {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package paint;
+package com.ck.tasks1.paint;
 
 public class PaintApp {
     public static void main(String[] args) {

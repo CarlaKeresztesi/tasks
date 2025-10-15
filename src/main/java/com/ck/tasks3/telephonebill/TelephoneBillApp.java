@@ -10,7 +10,6 @@ public class TelephoneBillApp {
         System.out.print("Enter number of minutes: ");
         int minutes = scanner.nextInt();
 
-
         if (minutes < 0) {
             System.out.println("Please enter a positive integer of minutes: ");
             return;
