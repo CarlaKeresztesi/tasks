@@ -1,4 +1,4 @@
-package com.sparta.jsongenerator;
+package com.ck.jsongenerator;
 
 //import com.google.gson.Gson; //Gson is a Java library that converts Java objects → JSON and JSON → Java objects.
 //import com.google.gson.GsonBuilder;

@@ -1,4 +1,4 @@
-package com.sparta.breakeven;
+package com.ck.breakeven;
 
 public class BreakEvenApp {
     public static void main(String[] args) {

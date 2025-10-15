@@ -1,4 +1,4 @@
-package com.sparta.debug;
+package com.ck.debug;
 
 public class DebugApp {
     public static void main(String[] args) {

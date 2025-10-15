@@ -1,4 +1,4 @@
-package com.sparta.sweettooth;
+package com.ck.sweettooth;
 
 public class SweetToothApp {
     public static void main(String[] args) {
