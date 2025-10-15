@@ -37,3 +37,12 @@ public class AverageApp {
         return value; //SENDS the valid NUMBER back to the code that called this method -> int a = getPos.....
     }
 }
+
+//To test the program, I tried the following:
+//
+//--> Inputs: 10, 20, 30, 40 → Expected average = 25.00
+//--> Inputs: 5, 5, 5, 5 → Expected average = 5.00
+//--> Inputs: 1, 2, 3, 4 → Expected average = 2.50
+//--> Inputs: -3 → Prompt correctly re-asks for a positive integer.
+//
+//All tests produced the expected results.

@@ -10,6 +10,8 @@ public class SimpleCalculatorApp {
     protected static double divide(double num1, double num2) {
         return num1 / num2;
     }
+
 }
 
 // used the Run configuration dropdown to edit Program arguments to the desired num1 and num2.
+
