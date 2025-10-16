@@ -17,8 +17,11 @@ public class JsonGeneratorApp {
         jsonBuilder.append("  \"first_name\": \"" + firstName + "\",\n"); //escape the double quotes as they repres Strings
         jsonBuilder.append("  \"last_name\": \"" + lastName + "\",\n"); // \" --> insert double quote character into the String
         jsonBuilder.append("  \"email\": \"" + email + "\",\n"); // "\",\n" --> adds a closing ", a comma, and a newline (\n)
-        ",\n
-
+        jsonBuilder.append("  \"phone\": \"" + phone + "\",\n");
+        jsonBuilder.append("  \"occupation\": \"" + occupation + "\",\n");
+        jsonBuilder.append("  \"is_active\": \"" + is_active + ",\n");
+        jsonBuilder.append("  \"years_service\": \"" + years_service + "\n");
+        jsonBuilder.append("}");
 
         System.out.println(jsonBuilder.toString());
     }
