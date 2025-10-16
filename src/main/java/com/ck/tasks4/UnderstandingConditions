@@ -1,0 +1,10 @@
+a = 5;
+b = 4'
+c = 3;
+--> indicate whether each of the following conditions resolve to true or false:
+a)  (a < b) -> false
+b)  (a != b) -> true
+c)  (a > b) and (a < c) -> false
+d)  (a > b) or (a < c) -> true
+e)  (a - 1 == b) -> true
+f)  not(b > c) -> false
