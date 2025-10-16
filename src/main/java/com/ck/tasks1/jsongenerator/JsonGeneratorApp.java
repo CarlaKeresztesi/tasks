@@ -1,31 +1,27 @@
 package com.ck.tasks1.jsongenerator;
 
-//import com.google.gson.Gson; //Gson is a Java library that converts Java objects → JSON and JSON → Java objects.
-//import com.google.gson.GsonBuilder;
-//
-//public class JsonGeneratorApp {
-//    static class Employee {        //nested static(=can be used without an instance of the outer class)
-//        private String firstName = "Alex";
-//        private String lastName = "Chen";
-//        private String email = "alex.chen@example.com";
-//        private String phone = "+44 20 79746 0832";
-//        private String occupation = "Software Engineer";
-//        private boolean is_active = true;
-//        private int years_service = 4;
-//
-//        public Employee() {
-//        }
-//    }
-//
-//    public static void main(String[] args) {
-//        Employee employee = new Employee();
-//
-//        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-//
-//        String json = gson.toJson(employee);
-//
-//        System.out.println(json);
-//    }
-//}
+public class JsonGeneratorApp {
+    public static void main(String[] args) {
+
+         String firstName = "Alex";
+         String lastName = "Chen";
+         String email = "alex.chen@example.com";
+         String phone = "+44 20 79746 0832";
+         String occupation = "Software Engineer";
+         boolean is_active = true;
+         int years_service = 4;
+
+        StringBuilder jsonBuilder = new StringBuilder(); //created empty StringBuilder with default capacity
+
+        jsonBuilder.append("{\n"); // \n --> new line
+        jsonBuilder.append("  \"first_name\": \"" + firstName + "\",\n"); //escape the double quotes as they repres Strings
+        jsonBuilder.append("  \"last_name\": \"" + lastName + "\",\n"); // \" --> insert double quote character into the String
+        jsonBuilder.append("  \"email\": \"" + email + "\",\n"); // "\",\n" --> adds a closing ", a comma, and a newline (\n)
+        ",\n
+
+
+        System.out.println(jsonBuilder.toString());
+    }
+}
 
 
