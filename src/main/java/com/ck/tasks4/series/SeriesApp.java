@@ -14,7 +14,7 @@ public class SeriesApp {
             System.out.print("Please enter an integer " + i + ": ");
             int value = scanner.nextInt();
 
-            if (value > 0) {
+            if (value > 0) {        //might want to separate these addition into a different method to be able to test it
                 positiveIntSum += value;
             } if (value < 0) {
                 negativeIntSum += value;
