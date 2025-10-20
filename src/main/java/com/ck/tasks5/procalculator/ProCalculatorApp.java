@@ -28,7 +28,7 @@ public class ProCalculatorApp {
                 case '-' -> result = num1 - num2;
                 case '*' -> result = num1 * num2;
                 case '/' -> {
-                    if (num2 != 0) {
+                    if (num2 != 0) { //is this condition always true? - checks it out!!
                         result = num1 / num2;
                     } else {
                         System.out.println("Error. Division by 0 is not allowed.");
