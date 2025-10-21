@@ -15,7 +15,6 @@ public class Product {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -23,7 +22,6 @@ public class Product {
     public double getPrice() {
         return price;
     }
-
     public void setPrice(double price) {
         this.price = price;
     }
@@ -31,9 +29,20 @@ public class Product {
     public int getStockQuantity() {
         return stockQuantity;
     }
-
     public void setStockQuantity(int stockQuantity) {
         this.stockQuantity = stockQuantity;
+    }
+
+    //Bonus challenge:
+    public void reduceStock(int quantity) {
+        if (quantity < 0) throw new IllegalArgumentException("Stock quantity cannot be negative.");
+        if (quantity > stockQuantity) throw new IllegalStateException("Not enough stock.");
+        this.stockQuantity -= quantity;
+    }
+
+    public void increaseStock(int quantity) {
+        if (quantity < 0) throw new IllegalArgumentException("Stock quantity increase cannot be negative.");
+        this.stockQuantity += quantity;
     }
 
 

@@ -12,7 +12,7 @@ public class ShoppingApp {
 
         cart.addItem(laptop, 1);
         cart.addItem(mouse, 2);
-        cart.addItem(keyboard,1);
+        cart.removeItem(keyboard);
 
         System.out.println("--- Cart before removing an item ---");
         cart.displayCart();

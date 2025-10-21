@@ -16,7 +16,6 @@ public class CartItem {
     public Product getProduct() {
         return product;
     }
-
     public void setProduct(Product product) {
         this.product = product;
     }
@@ -24,11 +23,9 @@ public class CartItem {
     public int getQuantity() {
         return quantity;
     }
-
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
-
 
     public double getItemTotal() {
         return product.getPrice() * quantity;
